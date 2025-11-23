@@ -1,0 +1,45 @@
+[
+  {
+    "service_id": "125",
+    "fields": [
+      {
+        "key": "report_frequency",
+        "type": "select",
+        "options": ["daily", "weekly", "monthly", "annual"],
+        "label_en": "Preferred report frequency",
+        "label_fr": "Fréquence préférée des rapports",
+        "prompt_en": "Which horticulture report frequency do you need (daily, weekly, monthly, annual)?",
+        "prompt_fr": "Quelle fréquence de rapport horticole désirez-vous (quotidienne, hebdomadaire, mensuelle, annuelle)?"
+      },
+      {
+        "key": "intended_use",
+        "type": "text",
+        "label_en": "Intended use of market information",
+        "label_fr": "Usage prévu des informations sur le marché",
+        "prompt_en": "How will you use the horticulture market information (planning, funding request, briefing, etc.)?",
+        "prompt_fr": "Comment utiliserez-vous les informations sur le marché horticole (planification, demande de financement, briefing, etc.)?"
+      }
+    ]
+  },
+  {
+    "service_id": "3595",
+    "fields": [
+      {
+        "key": "case_type",
+        "type": "text",
+        "label_en": "Tribunal or case type",
+        "label_fr": "Type de tribunal ou de dossier",
+        "prompt_en": "Which tribunal or case type do you need assistance with when using the Law Library Services?",
+        "prompt_fr": "Avec quel tribunal ou type de dossier avez-vous besoin d'aide lorsque vous utilisez les services de bibliothèque juridique?"
+      },
+      {
+        "key": "accessibility_needs",
+        "type": "textarea",
+        "label_en": "Accessibility considerations",
+        "label_fr": "Considérations en matière d'accessibilité",
+        "prompt_en": "Describe any accessibility accommodations you require when accessing the Law Library Services.",
+        "prompt_fr": "Décrivez toute mesure d'accessibilité dont vous avez besoin pour accéder aux services de bibliothèque juridique."
+      }
+    ]
+  }
+]
