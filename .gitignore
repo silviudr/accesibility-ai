@@ -1,0 +1,22 @@
+# Python builds / venv
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.pyc
+venv/
+
+# Local data artifacts
+data/processed/
+data/vectorstore/
+datasets/
+
+# Streamlit / FastAPI caches
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+*egg*-info/
+dist/
+build/
